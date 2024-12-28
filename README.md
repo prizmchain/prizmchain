@@ -1,16 +1,42 @@
-## Hi there 👋
+PrizmChain
 
-<!--
-**prizmchain/prizmchain** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+PrizmChain is an AI-powered Web3 social curator designed to simplify and enhance your journey in the blockchain ecosystem. By connecting users to personalized content, communities, and opportunities, PrizmChain empowers individuals to unlock the full potential of Web3.
 
-Here are some ideas to get you started:
+Features
+	•	Tailored Community Recommendations: Discover DAOs, NFT projects, and Web3 communities that match your interests.
+	•	Real-time Insights: Stay updated on the latest trends in DeFi, NFTs, and blockchain innovation.
+	•	Seamless Networking: Connect with like-minded individuals and build meaningful collaborations.
+	•	Educational Resources: Learn and navigate Web3 with guides, tutorials, and curated content.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Installation
+
+Prerequisites
+	•	Node.js (v14 or higher)
+	•	npm or yarn
+	•	Git
+
+
+ Setup
+	1.	Clone the repository:
+ 	2.	Navigate to the project directory:
+  3.	Install dependencies:
+  4.	Start the development server:
+
+
+Technologies
+	•	Frontend: React.js / Next.js
+	•	Backend: Node.js / FastAPI
+	•	Database: PostgreSQL / Redis
+	•	Blockchain Integration: Ethereum, Solana (optional)
+	•	Cloud Hosting: AWS / Vercel
+
+License
+This project is licensed under the MIT License.
+
+
+Contact
+
+For questions or collaboration inquiries, please contact:
+	•	Email: prismchain@hotmail.com
+	•	Twitter: @PrizmChain
+	•	Website: 
