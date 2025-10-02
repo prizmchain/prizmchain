@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PicoBrain - Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: #999;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .language-toggle {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+
+        .language-toggle button {
+            padding: 12px 30px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .language-toggle button:hover {
+            background: #f0f0f0;
+        }
+
+        .language-toggle button.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .content {
+            display: none;
+        }
+
+        .content.active {
+            display: block;
+            animation: fadeIn 0.3s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin: 30px 0 15px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+
+        h3 {
+            color: #667eea;
+            font-size: 20px;
+            margin: 25px 0 10px 0;
+        }
+
+        p {
+            margin: 15px 0;
+            color: #555;
+        }
+
+        ul {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+
+        li {
+            margin: 10px 0;
+            color: #555;
+        }
+
+        .section {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .contact-box {
+            background: #e8f0fe;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #667eea;
+        }
+
+        .contact-box a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            color: #999;
+            font-size: 14px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        th {
+            background: #f8f9fa;
+            font-weight: 600;
+            color: #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🧠</div>
+            <h1>Privacy Policy</h1>
+            <p class="last-updated">Last Updated: January 2, 2025</p>
+        </div>
+
+        <div class="language-toggle">
+            <button class="active" onclick="showLanguage('en')">English</button>
+            <button onclick="showLanguage('ko')">한국어</button>
+        </div>
+
+        <!-- English Content -->
+        <div id="en-content" class="content active">
+            <h2>1. Introduction</h2>
+            <p>Welcome to PicoBrain. We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we handle your information when you use our mobile application.</p>
+
+            <p><strong>Developer Information:</strong></p>
+            <ul>
+                <li><strong>App Name:</strong> PicoBrain</li>
+                <li><strong>Developer:</strong> Prizm</li>
+                <li><strong>Contact Email:</strong> <a href="mailto:prizm_kr@hotmail.com">prizm_kr@hotmail.com</a></li>
+            </ul>
+
+            <h2>2. Data We Collect</h2>
+
+            <h3>2.1 Data We Do NOT Collect</h3>
+            <p>PicoBrain is designed to respect your privacy. We do NOT collect or store:</p>
+            <ul>
+                <li>Personal identification information (name, email, phone number)</li>
+                <li>User account information (no login required)</li>
+                <li>Location data</li>
+                <li>Contacts or photos</li>
+                <li>Payment information</li>
+                <li>Any data that can directly identify you</li>
+            </ul>
+
+            <h3>2.2 Data Collected by Third Parties (Google AdMob)</h3>
+            <p>We use Google AdMob to display advertisements. AdMob may collect the following information:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data Type</th>
+                        <th>Purpose</th>
+                        <th>Linked to You</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Advertising Identifier (IDFA/GAID)</td>
+                        <td>Ad targeting and tracking</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>Device Information</td>
+                        <td>Ad serving and analytics</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>Usage Data</td>
+                        <td>Product interaction analytics</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>Diagnostics</td>
+                        <td>Crash data, performance data</td>
+                        <td>No</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>For more information about Google's privacy practices, please visit:</p>
+            <ul>
+                <li><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+                <li><a href="https://support.google.com/admob/answer/6128543" target="_blank">AdMob Privacy Information</a></li>
+            </ul>
+
+            <h3>2.3 Data Stored Locally on Your Device</h3>
+            <p>The following data is stored ONLY on your device and is never transmitted to our servers:</p>
+            <ul>
+                <li><strong>Game Progress:</strong> Your scores, achievements, and game history</li>
+                <li><strong>App Preferences:</strong> Sound settings, haptic feedback settings, background music preferences</li>
+                <li><strong>Language Preference:</strong> Automatically detected from your device settings</li>
+            </ul>
+            <p><em>Note: This data is never shared with anyone and remains entirely on your device. You can delete all this data at any time via Settings → Data → Reset Data.</em></p>
+
+            <h2>3. How We Use Data</h2>
+            <p>Since we don't collect any personal data ourselves, we don't use your data for any purpose. The only data usage occurs through Google AdMob for:</p>
+            <ul>
+                <li>Displaying relevant advertisements</li>
+                <li>Measuring ad performance</li>
+                <li>Improving ad targeting (anonymous)</li>
+            </ul>
+
+            <h2>4. Data Sharing</h2>
+            <p>We do not sell, trade, or transfer your data to third parties. The only third-party service we use is:</p>
+            <ul>
+                <li><strong>Google AdMob:</strong> For advertisement serving (see Section 2.2)</li>
+            </ul>
+
+            <h2>5. Children's Privacy</h2>
+            <p>PicoBrain is suitable for all ages, including children. We do not knowingly collect personal information from children. Since our app:</p>
+            <ul>
+                <li>Does not require account creation</li>
+                <li>Does not collect personal data</li>
+                <li>Works completely offline</li>
+                <li>Only uses general-audience ads from AdMob</li>
+            </ul>
+            <p>It is safe for children to use under parental guidance.</p>
+
+            <h2>6. Your Privacy Rights</h2>
+            <p>You have the right to:</p>
+            <ul>
+                <li><strong>Access:</strong> Since we don't collect personal data, there's nothing to access</li>
+                <li><strong>Delete:</strong> You can reset all local app data via Settings → Data → Reset Data</li>
+                <li><strong>Opt-out of Ad Tracking:</strong> You can limit ad tracking through your device settings:
+                    <ul>
+                        <li><strong>iOS:</strong> Settings → Privacy & Security → Tracking → Disable "Allow Apps to Request to Track"</li>
+                        <li><strong>Android:</strong> Settings → Google → Ads → Opt out of Ads Personalization</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2>7. Data Security</h2>
+            <p>Since all your game data is stored locally on your device and we don't transmit any personal information to servers, your data is as secure as your device. We recommend:</p>
+            <ul>
+                <li>Using a device passcode/biometric lock</li>
+                <li>Keeping your device's operating system up to date</li>
+                <li>Not sharing your device with untrusted individuals</li>
+            </ul>
+
+            <h2>8. Offline Functionality</h2>
+            <p>PicoBrain works completely offline. You don't need an internet connection to:</p>
+            <ul>
+                <li>Play any games</li>
+                <li>Track your progress</li>
+                <li>Access your statistics</li>
+            </ul>
+            <p><em>Internet is only required for displaying advertisements.</em></p>
+
+            <h2>9. Changes to This Privacy Policy</h2>
+            <p>We may update this privacy policy from time to time. We will notify you of any changes by:</p>
+            <ul>
+                <li>Updating the "Last Updated" date at the top of this policy</li>
+                <li>Posting the new privacy policy on this page</li>
+                <li>Providing an in-app notification for significant changes</li>
+            </ul>
+            <p>We encourage you to review this privacy policy periodically.</p>
+
+            <h2>10. Contact Us</h2>
+            <div class="contact-box">
+                <p>If you have any questions about this Privacy Policy, please contact us:</p>
+                <p><strong>Email:</strong> <a href="mailto:prizm_kr@hotmail.com">prizm_kr@hotmail.com</a></p>
+                <p><strong>Support Page:</strong> <a href="https://prizmchain.github.io/picobrain-support.html">https://prizmchain.github.io/picobrain-support.html</a></p>
+            </div>
+
+            <div class="section">
+                <h3>Summary of Privacy Practices</h3>
+                <p><strong>✅ What PicoBrain Does:</strong></p>
+                <ul>
+                    <li>Stores game data locally on your device only</li>
+                    <li>Works completely offline</li>
+                    <li>Uses AdMob for non-intrusive advertisements</li>
+                    <li>Respects your privacy completely</li>
+                </ul>
+                <p><strong>❌ What PicoBrain Does NOT Do:</strong></p>
+                <ul>
+                    <li>Collect personal information</li>
+                    <li>Require user accounts or login</li>
+                    <li>Track your location</li>
+                    <li>Access your contacts, photos, or other apps</li>
+                    <li>Share your data with anyone (except AdMob for ads)</li>
+                    <li>Sell your data to third parties</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Korean Content -->
+        <div id="ko-content" class="content">
+            <h2>1. 소개</h2>
+            <p>PicoBrain에 오신 것을 환영합니다. 저희는 귀하의 프라이버시를 존중하며 개인 데이터를 보호하기 위해 최선을 다하고 있습니다. 본 개인정보 처리방침은 귀하가 저희 모바일 애플리케이션을 사용할 때 정보를 어떻게 처리하는지 설명합니다.</p>
+
+            <p><strong>개발자 정보:</strong></p>
+            <ul>
+                <li><strong>앱 이름:</strong> PicoBrain</li>
+                <li><strong>개발자:</strong> Prizm</li>
+                <li><strong>연락처 이메일:</strong> <a href="mailto:prizm_kr@hotmail.com">prizm_kr@hotmail.com</a></li>
+            </ul>
+
+            <h2>2. 수집하는 데이터</h2>
+
+            <h3>2.1 수집하지 않는 데이터</h3>
+            <p>PicoBrain은 귀하의 프라이버시를 존중하도록 설계되었습니다. 다음 정보는 수집하거나 저장하지 않습니다:</p>
+            <ul>
+                <li>개인 식별 정보 (이름, 이메일, 전화번호)</li>
+                <li>사용자 계정 정보 (로그인 불필요)</li>
+                <li>위치 데이터</li>
+                <li>연락처 또는 사진</li>
+                <li>결제 정보</li>
+                <li>귀하를 직접 식별할 수 있는 모든 데이터</li>
+            </ul>
+
+            <h3>2.2 제3자가 수집하는 데이터 (Google AdMob)</h3>
+            <p>저희는 광고를 표시하기 위해 Google AdMob을 사용합니다. AdMob은 다음 정보를 수집할 수 있습니다:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>데이터 유형</th>
+                        <th>목적</th>
+                        <th>사용자 연결 여부</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>광고 식별자 (IDFA/GAID)</td>
+                        <td>광고 타겟팅 및 추적</td>
+                        <td>아니오</td>
+                    </tr>
+                    <tr>
+                        <td>기기 정보</td>
+                        <td>광고 제공 및 분석</td>
+                        <td>아니오</td>
+                    </tr>
+                    <tr>
+                        <td>사용 데이터</td>
+                        <td>제품 상호작용 분석</td>
+                        <td>아니오</td>
+                    </tr>
+                    <tr>
+                        <td>진단 데이터</td>
+                        <td>충돌 데이터, 성능 데이터</td>
+                        <td>아니오</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>Google의 개인정보 보호 정책에 대한 자세한 내용은 다음을 참조하세요:</p>
+            <ul>
+                <li><a href="https://policies.google.com/privacy" target="_blank">Google 개인정보처리방침</a></li>
+                <li><a href="https://support.google.com/admob/answer/6128543" target="_blank">AdMob 개인정보 보호 정보</a></li>
+            </ul>
+
+            <h3>2.3 기기에 로컬로 저장되는 데이터</h3>
+            <p>다음 데이터는 귀하의 기기에만 저장되며 저희 서버로 전송되지 않습니다:</p>
+            <ul>
+                <li><strong>게임 진행 상황:</strong> 점수, 업적, 게임 기록</li>
+                <li><strong>앱 설정:</strong> 사운드 설정, 햅틱 피드백 설정, 배경 음악 설정</li>
+                <li><strong>언어 설정:</strong> 기기 설정에서 자동 감지</li>
+            </ul>
+            <p><em>참고: 이 데이터는 누구와도 공유되지 않으며 전적으로 귀하의 기기에만 남아있습니다. 설정 → 데이터 → 데이터 초기화를 통해 언제든지 이 데이터를 삭제할 수 있습니다.</em></p>
+
+            <h2>3. 데이터 사용 방법</h2>
+            <p>저희는 개인 데이터를 직접 수집하지 않으므로 어떤 목적으로도 귀하의 데이터를 사용하지 않습니다. 유일한 데이터 사용은 다음 목적을 위한 Google AdMob을 통해서만 발생합니다:</p>
+            <ul>
+                <li>관련 광고 표시</li>
+                <li>광고 성과 측정</li>
+                <li>광고 타겟팅 개선 (익명)</li>
+            </ul>
+
+            <h2>4. 데이터 공유</h2>
+            <p>저희는 귀하의 데이터를 제3자에게 판매, 거래 또는 양도하지 않습니다. 저희가 사용하는 유일한 제3자 서비스는:</p>
+            <ul>
+                <li><strong>Google AdMob:</strong> 광고 제공 (섹션 2.2 참조)</li>
+            </ul>
+
+            <h2>5. 어린이 프라이버시</h2>
+            <p>PicoBrain은 어린이를 포함한 모든 연령대에 적합합니다. 저희는 고의로 어린이로부터 개인 정보를 수집하지 않습니다. 저희 앱은:</p>
+            <ul>
+                <li>계정 생성이 필요하지 않음</li>
+                <li>개인 데이터를 수집하지 않음</li>
+                <li>완전히 오프라인으로 작동</li>
+                <li>AdMob의 전체 이용가 광고만 사용</li>
+            </ul>
+            <p>따라서 부모의 지도하에 어린이가 안전하게 사용할 수 있습니다.</p>
+
+            <h2>6. 귀하의 프라이버시 권리</h2>
+            <p>귀하는 다음과 같은 권리가 있습니다:</p>
+            <ul>
+                <li><strong>접근:</strong> 저희는 개인 데이터를 수집하지 않으므로 접근할 데이터가 없습니다</li>
+                <li><strong>삭제:</strong> 설정 → 데이터 → 데이터 초기화를 통해 모든 로컬 앱 데이터를 초기화할 수 있습니다</li>
+                <li><strong>광고 추적 거부:</strong> 기기 설정을 통해 광고 추적을 제한할 수 있습니다:
+                    <ul>
+                        <li><strong>iOS:</strong> 설정 → 개인 정보 보호 및 보안 → 추적 → "앱이 추적을 요청하도록 허용" 비활성화</li>
+                        <li><strong>Android:</strong> 설정 → Google → 광고 → 광고 맞춤설정 선택 해제</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2>7. 데이터 보안</h2>
+            <p>모든 게임 데이터는 귀하의 기기에 로컬로 저장되며 서버로 개인 정보를 전송하지 않으므로 귀하의 데이터는 기기만큼 안전합니다. 다음을 권장합니다:</p>
+            <ul>
+                <li>기기 잠금 코드/생체 인식 사용</li>
+                <li>기기 운영 체제를 최신 상태로 유지</li>
+                <li>신뢰할 수 없는 사람과 기기를 공유하지 않기</li>
+            </ul>
+
+            <h2>8. 오프라인 기능</h2>
+            <p>PicoBrain은 완전히 오프라인으로 작동합니다. 다음 작업에 인터넷 연결이 필요하지 않습니다:</p>
+            <ul>
+                <li>모든 게임 플레이</li>
+                <li>진행 상황 추적</li>
+                <li>통계 확인</li>
+            </ul>
+            <p><em>인터넷은 광고 표시에만 필요합니다.</em></p>
+
+            <h2>9. 개인정보 처리방침 변경</h2>
+            <p>저희는 때때로 이 개인정보 처리방침을 업데이트할 수 있습니다. 다음 방법으로 변경 사항을 알려드립니다:</p>
+            <ul>
+                <li>본 방침 상단의 "최종 업데이트" 날짜 업데이트</li>
+                <li>이 페이지에 새로운 개인정보 처리방침 게시</li>
+                <li>중요한 변경 사항에 대한 앱 내 알림 제공</li>
+            </ul>
+            <p>정기적으로 이 개인정보 처리방침을 검토하시기 바랍니다.</p>
+
+            <h2>10. 문의하기</h2>
+            <div class="contact-box">
+                <p>본 개인정보 처리방침에 대한 질문이 있으시면 다음으로 문의해 주세요:</p>
+                <p><strong>이메일:</strong> <a href="mailto:prizm_kr@hotmail.com">prizm_kr@hotmail.com</a></p>
+                <p><strong>지원 페이지:</strong> <a href="https://prizmchain.github.io/picobrain-support.html">https://prizmchain.github.io/picobrain-support.html</a></p>
+            </div>
+
+            <div class="section">
+                <h3>개인정보 보호 관행 요약</h3>
+                <p><strong>✅ PicoBrain이 하는 것:</strong></p>
+                <ul>
+                    <li>게임 데이터를 기기에만 로컬로 저장</li>
+                    <li>완전히 오프라인으로 작동</li>
+                    <li>비침해적인 광고를 위해 AdMob 사용</li>
+                    <li>귀하의 프라이버시를 완전히 존중</li>
+                </ul>
+                <p><strong>❌ PicoBrain이 하지 않는 것:</strong></p>
+                <ul>
+                    <li>개인 정보 수집</li>
+                    <li>사용자 계정 또는 로그인 요구</li>
+                    <li>위치 추적</li>
+                    <li>연락처, 사진 또는 기타 앱에 접근</li>
+                    <li>귀하의 데이터를 누구와도 공유 (광고를 위한 AdMob 제외)</li>
+                    <li>제3자에게 데이터 판매</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>PicoBrain © 2025 | Daily Brain Training Games</p>
+            <p style="margin-top: 10px;">Made with 🧠 and ❤️</p>
+        </div>
+    </div>
+
+    <script>
+        function showLanguage(lang) {
+            // Update button states
+            document.querySelectorAll('.language-toggle button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+
+            // Update content visibility
+            document.querySelectorAll('.content').forEach(content => {
+                content.classList.remove('active');
+            });
+            document.getElementById(lang + '-content').classList.add('active');
+
+            // Scroll to top smoothly
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Auto-detect language on page load
+        window.addEventListener('DOMContentLoaded', function() {
+            const userLang = navigator.language || navigator.userLanguage;
+            if (userLang.startsWith('ko')) {
+                showLanguage('ko');
+                document.querySelectorAll('.language-toggle button')[1].classList.add('active');
+                document.querySelectorAll('.language-toggle button')[0].classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
